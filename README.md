@@ -1,6 +1,5 @@
-<p align="center">
-  <img src="![image](https://github.com/Zinxo3/Z-tool.py/assets/151643629/cad614c2-b322-4155-9686-836bb0574394)
-">
+<img src="https://img.shields.io/badge/Written%20In-Python-blue?style=flat-square">
+</p>
   
 
 
