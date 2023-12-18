@@ -1,2 +1,3 @@
 # Z-tool.py
-Its an z-tool
+Its a tool thats created by zino
+its not be used for iligale stuff
