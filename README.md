@@ -20,10 +20,10 @@ THIS IS THE TOOL
 
 
  
-apt update && apt upgrade                                                                
-apt install git                                                                                                                                                                 apt install python2
-                                                                                         git clone (soon)
-                                                                                         cd (soon)
-                                                                                    chmod +x *
-                                                                                       sh setup.sh
- 
+apt update && apt upgrade
+apt install git 
+apt install python2 
+git clone (soon)
+cd (soon) 
+chmod +x * 
+sh setup.sh
