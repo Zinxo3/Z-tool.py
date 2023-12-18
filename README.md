@@ -1,9 +1,5 @@
 <img src="https://img.shields.io/badge/Written%20In-Python-blue?style=flat-square">
 </p>
-img src="https://img.shields.io/badge/Author-KasRoudra-purple?style=flat-square">
-</p>
-
-
 
 
 
