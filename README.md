@@ -2,6 +2,19 @@
 </p>
 
 
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bildanzeige</title>
+</head>
+<body>
+    <img src="![image](https://github.com/Zinxo3/Z-tool.py/assets/151643629/03983607-efb8-4eb7-9f4f-3ed2bd6a34fb)
+" alt="">
+</body>
+</html>
+
 
 
 
