@@ -17,3 +17,17 @@ THIS IS THE TOOL
 # picture
 ![image](https://github.com/Zinxo3/Z-tool.py/assets/151643629/082f8e7d-1f34-4479-a8b0-03fde567af6f)
 
+
+
+ ______________________________________________________________________| 
+| apt update && apt upgrade
+| apt install git   
+| apt install python2
+| git clone (soon)
+| cd (soon)
+| chmod +x *
+| sh setup.sh
+|
+|
+|______________________________________________________________________|
+
