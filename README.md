@@ -21,23 +21,22 @@ its not be used for iligale stuff
 
  
 
-# Main package
-FROM python:3
 
-# Author info
-LABEL MAINTAINER="soon"
+/FROM python:3
 
-# Working directory
-WORKDIR /Z-Tool/
-# Add files 
-ADD . /Z-Tool
 
-# Installing other packages
-RUN apt-get update
-RUN apt-get upgrade -y
-RUN apt-get install python3-pip php openssh-client -y
-RUN pip3 install -r files/requirements.txt --break-system-packages
-RUN apt-get clean
+/LABEL MAINTAINER="soon"
 
-# Main command
-CMD ["python3", "z-tool.py", "--noupdate"]
+
+/WORKDIR /Z-Tool/
+
+/ADD . /Z-Tool
+
+
+/RUN apt-get update
+/RUN apt-get upgrade -y
+/RUN apt-get install python3-pip php openssh-client -y
+/RUN pip3 install -r files/requirements.txt --break-system-packages
+/RUN apt-get clean
+
+/CMD ["python3", "z-tool.py", "--noupdate"]
