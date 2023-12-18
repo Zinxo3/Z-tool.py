@@ -19,14 +19,11 @@ THIS IS THE TOOL
 
 
 
- ______________________________________________________________________| 
-|
-apt update && apt upgrade
- apt install git   
- apt install python2
- git clone (soon)
- cd (soon)
- chmod +x *
- sh setup.sh
- ______________________________________________________________________|
-
+ 
+apt update && apt upgrade                                                                
+apt install git                                                                                                                                                                 apt install python2
+                                                                                         git clone (soon)
+                                                                                         cd (soon)
+                                                                                    chmod +x *
+                                                                                       sh setup.sh
+ 
