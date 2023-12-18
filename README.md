@@ -20,10 +20,24 @@ THIS IS THE TOOL
 
 
  
-apt update && apt upgrade
-apt install git 
-apt install python2 
-git clone (soon)
-cd (soon) 
-chmod +x * 
-sh setup.sh
+
+# Main package
+FROM python:3
+
+# Author info
+LABEL MAINTAINER="soon"
+
+# Working directory
+WORKDIR /Z-Tool/
+# Add files 
+ADD . /Z-Tool
+
+# Installing other packages
+RUN apt-get update
+RUN apt-get upgrade -y
+RUN apt-get install python3-pip php openssh-client -y
+RUN pip3 install -r files/requirements.txt --break-system-packages
+RUN apt-get clean
+
+# Main command
+CMD ["python3", "z-tool.py", "--noupdate"]
